@@ -1,5 +1,5 @@
-name: digital_clock
-description: Digital clock.
+name: gradi_clock
+description: Gradi clock.
 version: 1.0.0+1
 
 environment:

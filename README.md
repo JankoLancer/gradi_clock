@@ -4,7 +4,7 @@ Clock display minutes with 12 gradient Stripes. Each Stripe represent 5 minute p
 
 
 
-<img src='gradi_clock.gif' width='350'>
+<img src='gradi_clock2.gif' width='350'>
 
 <img src='darkclock.jpg' width='350'>
 
