@@ -1,0 +1,29 @@
+name: digital_clock
+description: Digital clock.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.6.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_clock_helper:
+    path: ../flutter_clock_helper
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: BebasNeue
+      fonts:
+        - asset: third_party/BebasNeue-Bold.otf
+          weight: 600
+        - asset: third_party/BebasNeue-Light.otf
+          weight: 100
+        - asset: third_party/BebasNeue-Regular.otf
+        
