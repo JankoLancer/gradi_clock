@@ -1,11 +1,11 @@
-# Digital Clock
+# Gradi Clock
+Clock face made for Flutter Clock challenge.
+Clock display minutes with 12 gradient Stripes. Each Stripe represent 5 minute period.
 
-This app is an example of a digital clock.
-It has a light theme and a dark theme.
-See the [Analog Clock](../analog_clock) if you'd like an example that displays the weather and location.
 
-<img src='digital.gif' width='350'>
 
-<img src='digital_dark.png' width='350'>
+<img src='video.gif' width='350'>
 
-<img src='digital_light.png' width='350'>
+<img src='darkclock.jpg' width='350'>
+
+<img src='lightclock.jpg' width='350'>

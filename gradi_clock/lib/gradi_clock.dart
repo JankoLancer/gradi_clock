@@ -110,7 +110,7 @@ class _GradiClockState extends State<GradiClock> {
       Row(
         children: <Widget>[
           ...List<int>.generate(12, (i) => i + 1).map((int index) {
-            return _buildStripe(stripeColorWidth, stripesHeight, index,
+            return _buildStripe(stripeColorWidth + 1, stripesHeight + 1, index,
                 stripeMarginWidth, colors);
           }).toList(),
         ],
@@ -155,18 +155,18 @@ class _GradiClockState extends State<GradiClock> {
     final hour =
         DateFormat(widget.model.is24HourFormat ? 'HH' : 'hh').format(_dateTime);
     final ampmMarker = DateFormat('a').format(_dateTime);
-    final fontSize = MediaQuery.of(context).size.width / 5;
+    final fontSize = MediaQuery.of(context).size.width / 4.5;
     final elemMargin = MediaQuery.of(context).size.width / 40;
     final defaultStyle = TextStyle(
       color: colors[ColorPallete.text],
       fontFamily: 'BebasNeue',
       fontSize: fontSize,
-      height: 1.35,
+      height: widget.model.is24HourFormat ? 1.4 : 1,
     );
     final boldStyle = defaultStyle.merge(TextStyle(
         fontWeight: FontWeight.bold, fontSize: fontSize / 1.5, height: 1));
     final lightStyle = defaultStyle.merge(TextStyle(
-        fontWeight: FontWeight.w100, fontSize: fontSize / 1.5, height: 0.5));
+        fontWeight: FontWeight.w100, fontSize: fontSize / 1.7, height: 0.6));
 
     return Container(
       color: colors[ColorPallete.background],
