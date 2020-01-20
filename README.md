@@ -19,20 +19,33 @@ show certain hour as a gradient
 which is reflecting light of the day/night accordingly. 
 
 ## Preview
+<p align="center">
+ <img src='readme_files/gradi_clock2.gif' width='500'>
+</p>
 
-<img src='readme_files/gradi_clock2.gif' width='350'>
+<p align="center">
+ <img src='readme_files/darkclock.jpg' width='500'>
+</p>
 
-<img src='readme_files/darkclock.jpg' width='350'>
+<p align="center">
+ <img src='readme_files/lightclock.jpg' width='500'>
+</p>
 
-<img src='readme_files/lightclock.jpg' width='350'>
+Flutter web preview: https://jankolancer.github.io/gradi_clock/
 
 ## Design
+<p align="center">
+ <img src='readme_files/daytheme.png' width='800'>
+</p>
 
-<img src='readme_files/daytheme.png' width='350'>
+<p align="center">
+ <img src='readme_files/nighttheme.jpg' width='800'>
+</p>
 
-<img src='readme_files/nighttheme.jpg' width='350'>
+<p align="center">
+ <img src='readme_files/howitworks.png' width='600'>
+</p>
 
-<img src='readme_files/howitworks.png' width='350'>
-
-<img src='readme_files/gradients.jpg' width='350'>
-
+<p align="center">
+ <img src='readme_files/gradients.jpg' width='600'>
+</p>
