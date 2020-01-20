@@ -97,8 +97,7 @@ class _GradiClockState extends State<GradiClock> {
 
     return Stack(children: <Widget>[
       Container(
-        width: stripesWidth,
-        height: stripesHeight,
+        constraints: BoxConstraints.loose(Size(stripesWidth, stripesHeight)),
         decoration: BoxDecoration(
           gradient: LinearGradient(
             begin: Alignment.centerLeft,
@@ -128,8 +127,8 @@ class _GradiClockState extends State<GradiClock> {
     return Row(
       children: <Widget>[
         Container(
-          width: stripeColorWidth,
-          height: stripesHeight,
+          
+        constraints: BoxConstraints.tight(Size(stripeColorWidth, stripesHeight)),
           alignment: Alignment.topCenter,
           //Child representing empty space of Stripe
           child: FractionallySizedBox(
@@ -140,8 +139,7 @@ class _GradiClockState extends State<GradiClock> {
           ),
         ),
         Container(
-            width: stripeMarginWidth,
-            height: stripesHeight,
+        constraints: BoxConstraints.tight(Size(stripeMarginWidth, stripesHeight)),
             color: colors[ColorPallete.background]),
       ],
     );
