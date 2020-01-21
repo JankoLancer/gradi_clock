@@ -20,7 +20,7 @@ which is reflecting light of the day/night accordingly.
 
 ## Contributors
 
-Design si work of <a href="https://www.linkedin.com/in/katarina-ostoji%C4%87-32819a18a/">Katarina Ostojic</a> and flutter app is made by  <a href="https://www.linkedin.com/in/jankodjuric/">Janko Djuric</a>.
+Design is work of <a href="https://www.linkedin.com/in/katarina-ostoji%C4%87-32819a18a/">Katarina Ostojic</a> and flutter app is made by  <a href="https://www.linkedin.com/in/jankodjuric/">Janko Djuric</a>.
 
 ## Preview
 <p align="center">
